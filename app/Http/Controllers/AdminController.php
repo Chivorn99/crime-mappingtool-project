@@ -65,6 +65,6 @@ class AdminController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return redirect('/login_admin'); // Make sure this route exists
+        return redirect('/login_admin'); 
     }
 }
