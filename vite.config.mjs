@@ -13,12 +13,12 @@ export default defineConfig({
     ],
     server: {
         host: 'localhost',
-        port: 5173,
+        port: 8080,
         strictPort: true,
         hmr: {
             protocol: 'ws',
             host: 'localhost',
-            port: 5173
+            port: 8080
         },
         origin: 'http://localhost:5173/'
     }
